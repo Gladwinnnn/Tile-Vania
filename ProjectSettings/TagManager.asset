@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -13,11 +14,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Climbing
+  - 'Player '
+  - Background
+  - Enemy
   - 
   - 
   - 
@@ -43,6 +44,12 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 41941407
+    locked: 0
+  - name: Climbing
+    uniqueID: 1316444269
+    locked: 0
+  - name: Enemy
+    uniqueID: 2555345865
     locked: 0
   - name: Player
     uniqueID: 1164628887
